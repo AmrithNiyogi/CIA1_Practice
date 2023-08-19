@@ -10,7 +10,7 @@ public class HashMapEmployee {
         HashMap<String, Employee> employeeHashMap = new HashMap<>();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter number of employee records tp be entered: ");
+        System.out.println("Enter number of employee records to be entered: ");
         int num = sc.nextInt();
 
         for (int i = 0; i < num; i++) {
